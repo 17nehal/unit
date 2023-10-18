@@ -1,0 +1,33 @@
+package jUnit2023;
+
+public class addition {
+	public int add(int a,int b)
+	{
+		return(a+b);
+	}
+public String concat(String a,String b)
+	{
+		return(a+b);
+	}
+}
+
+
+
+test case///////////////////
+
+package jUnit2023;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class additionTest {
+
+	@Test
+	void test() {
+		addition a=new addition();
+		int x=a.add(20,10);
+		assertEquals(30,x);
+	}
+
+}
