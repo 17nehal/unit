@@ -31,3 +31,29 @@ class additionTest {
 	}
 
 }
+
+
+
+
+
+refact
+
+
+
+
+package junit2023;
+
+import java.util.Scanner;
+
+public class yuvraj {
+	public static void main(String[] args) {
+		System.out.print("enter the number");
+		int Num1=extracted().nextInt();
+		Scanner read2 = new Scanner(System.in);
+		System.out.print("enter the number");
+		int Num2=read2.nextInt();
+		int temp=Num1+Num2;
+		System.out.print("sum of two no. is"+temp);
+		
+	}
+	
